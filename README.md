@@ -1,30 +1,67 @@
-# GodotOS | [Trailer](https://www.youtube.com/watch?v=44LcozXequw)
+# MythOS | Forked from GodotOS
 
-Welcome to GodotOS, an operating system interface created entirely in Godot! Browse folders, edit text files, view images, play games, and more in one cohesive polished interface that can even be used on the web!
+Welcome to **MythOS**, a customizable operating system interface built entirely in Godot! MythOS is a fork of [GodotOS](https://github.com/popcar2/GodotOS), adapted and maintained by me, [Your Name or Handle]. This project provides a minimalist, distraction-free, and aesthetically pleasing desktop-like experience for my own game I'm currently working on.
 
-![image](https://github.com/popcar2/GodotOS/assets/16920817/cf2bb818-4135-46fb-8cfe-43879a826fcc)
-
-GodotOS is more of a toy than a serious project. It's meant to push the limits on UI design in Godot while creating a desktop that is minimalist, distraction-free, and aesthetically pleasing.
-
-Aside from that, GodotOS is also meant to be a hub for small games and experiences that can easily be bundled in. Want to add your own game to the start menu? Check the [contributing guide!](CONTRIBUTING.md)
-
-# Download
-
-* Try the web version on [Itch.io page](https://popcar2.itch.io/godotos)
-* Download all versions from the [releases page](https://github.com/popcar2/GodotOS/releases)
-
-# Credits
-
-* GodotOS was made by me, popcar2.
-* [Default wallpaper](https://unsplash.com/photos/snow-capped-mountain-at-night-3s85IxVDyXE) was made by Haseeb Jamil.
-* Misc icons are from [game-icons](https://game-icons.net/).
-* Folder icons are from [flaticon](https://www.flaticon.com/)
-* Additionals Wallpapers are by [lydex256](https://github.com/lydex256).
-* "Godotris" by [MrakDun-desu](https://github.com/MrakDun-desu)
-* "Snake" by [jean-philippe-martin](https://github.com/jean-philippe-martin)
+MythOS pushes the limits of UI design in Godot, providing a flexible foundation for creative projects. Unlike the original GodotOS, MythOS does not include the bundled games, focusing instead on providing a clean and customizable OS-like interface for my use case. If you are familiar with Linux distributions, you could say that MythOS is a derivative "distro" of GodotOS—but it's important to note that neither MythOS nor GodotOS are real operating systems. Both are applications with interfaces that resemble an OS, created entirely in Godot, and are intended as creative projects or "toys" rather than functional system software.
 
 ---
 
-Note: GodotOS is not actually an operating system, it's an application with an interface resembling one.
+## Usage, Licensing & Source Code
 
-**GodotOS is not affiliated with Godot Engine developers or the Godot Foundation.**
+MythOS is **free to use for anyone** and is released under the [GNU Affero General Public License v3.0 (AGPLv3)](https://www.gnu.org/licenses/agpl-3.0.html), as required by the original GodotOS project.
+
+**Important licensing note:**  
+If you include MythOS (or any AGPLv3-licensed code) as part of your own game or application and distribute it (for example, by selling, sharing, or making it available online), the AGPLv3 requires you to make the **complete source code of your entire game/application** available under the same license. You cannot release only the MythOS source code; you must release the source for your whole project if you distribute it with MythOS included.
+
+At this time, MythOS is being developed specifically for integration into my own game. I plan to make the source code for my game public in the future, but it is **not currently available**.
+
+*Usage*
+
+While MythOS will soon be integrated into my own game, you are absolutely welcome to use MythOS in your own projects as well. The project is free and open under the AGPLv3 license—feel free to adapt, modify, and build upon it for your own creative ideas!
+
+
+
+---
+
+## Download
+
+- Try the original web version on [GodotOS Itch.io page](https://popcar2.itch.io/godotos)
+- Download MythOS releases from [your releases page or repository link]
+
+---
+
+## Credits
+
+- **MythOS** is developed and maintained by quenkono11.
+- **Based on [GodotOS](https://github.com/popcar2/GodotOS)**, created by popcar2.
+- [Default wallpaper](https://unsplash.com/photos/snow-capped-mountain-at-night-3s85IxVDyXE) by Haseeb Jamil.
+- Misc icons from [game-icons](https://game-icons.net/).
+- Folder icons from [flaticon](https://www.flaticon.com/).
+- Additional wallpapers by [lydex256](https://github.com/lydex256).
+
+*Note: The original bundled games ("Godotris" by MrakDun-desu and "Snake" by jean-philippe-martin) have been removed in MythOS.*
+
+---
+
+## Changes from GodotOS
+
+- Renamed project to MythOS
+- Removed bundled games
+- Customized UI and functionality for integration into my own game
+- Updated branding and documentation
+
+---
+
+## Disclaimer
+
+MythOS is not an actual operating system, but an application with an interface resembling one.  
+MythOS is not affiliated with Godot Engine developers or the Godot Foundation.  
+GodotOS is a project by popcar2.
+
+---
+
+## License
+
+This project is licensed under the [GNU AGPLv3](LICENSE). See the LICENSE file for more information.
+
+Copyright (c) 2025 Quenkono11
