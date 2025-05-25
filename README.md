@@ -53,7 +53,7 @@ To open or run this project, you should use Godot 4.4.1 or any later 4.4.x versi
 - Folder icons from [flaticon](https://www.flaticon.com/).
 - Additional wallpapers by [lydex256](https://github.com/lydex256).
 
-*Note: The original bundled games ("Godotris" by MrakDun-desu and "Snake" by jean-philippe-martin) have been removed in MythOS.*
+
 
 ---
 
