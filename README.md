@@ -64,4 +64,4 @@ GodotOS is a project by popcar2.
 
 This project is licensed under the [GNU AGPLv3](LICENSE). See the LICENSE file for more information.
 
-Copyright (c) 2025 Quenkono11
+Copyright (c) 2025 quenkono11
