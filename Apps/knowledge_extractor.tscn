@@ -1,4 +1,6 @@
-[gd_scene load_steps=3 format=3 uid="uid://cakqmm06ieae"]
+[gd_scene load_steps=4 format=3 uid="uid://cakqmm06ieae"]
+
+[ext_resource type="Script" uid="uid://bfdb8lh1aa60b" path="res://Apps/knowledge_extractor.gd" id="1_daqy2"]
 
 [sub_resource type="Gradient" id="Gradient_aidk0"]
 colors = PackedColorArray(0.129249, 0.387973, 0.216734, 1, 0.869942, 0.521507, 0.706282, 1)
@@ -14,6 +16,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+script = ExtResource("1_daqy2")
 
 [node name="Background" type="TextureRect" parent="."]
 layout_mode = 1
@@ -39,6 +42,40 @@ grow_vertical = 0
 text = "Insert Data Cube"
 
 [node name="Extraction Progess Label" type="Label" parent="."]
-layout_mode = 0
-offset_right = 40.0
-offset_bottom = 22.3333
+visible = false
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -114.0
+offset_top = -14.0
+offset_right = 24.0
+offset_bottom = 29.2709
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 31
+text = "PROGESS"
+
+[node name="ProgressBar" type="ProgressBar" parent="."]
+visible = false
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -207.0
+offset_top = -129.0
+offset_right = 112.0
+offset_bottom = -17.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 36
+
+[node name="Timer" type="Timer" parent="."]
+wait_time = 0.086
+
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]

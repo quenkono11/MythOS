@@ -95,6 +95,12 @@ layout_mode = 2
 title_text = "Cube Scene"
 description_text = "THE CUBE. THE CUBE. THE CUBE."
 
+[node name="Start Menu Option" parent="StartMenuAnchor/Start Menu/VBoxContainer" instance=ExtResource("2_1ualm")]
+layout_mode = 2
+game_scene = "res://Apps/knowledge_extractor.tscn"
+title_text = "Knowledge Extractor"
+description_text = "Extract the knowledge contained in Data Cubes"
+
 [node name="Power Button" type="Button" parent="StartMenuAnchor/Start Menu"]
 layout_mode = 1
 anchors_preset = 3
