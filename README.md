@@ -1,6 +1,6 @@
 # MythOS | A GodotOS Fork
 
-Welcome to **MythOS**, a customizable operating system interface built entirely in Godot! MythOS is a fork of [GodotOS](https://github.com/popcar2/GodotOS), adapted and maintained by me, quenkono11. This project provides a minimalist, distraction-free, and aesthetically pleasing desktop-like experience for my own game I'm currently working on.
+Welcome to **MythOS**, a customizable operating system interface built entirely in Godot! MythOS is a fork of [GodotOS](https://github.com/popcar2/GodotOS), adapted and maintained by me, quenkono11. This project provides a minimalist, distraction-free, and aesthetically pleasing desktop-like experience for my own game I'm currently working on. It also is supposed to be as portable as possible so you can use it in your own games/apps/projects. Just note that you have to release your whole project under the AGPLv3 license.
 
 MythOS pushes the limits of UI design in Godot, providing a flexible foundation for creative projects. Unlike the original GodotOS, MythOS does not include the bundled games, focusing instead on providing a clean and customizable OS-like interface for my use case. If you are familiar with Linux distributions, you could say that MythOS is a derivative "distro" of GodotOS—but it's important to note that neither MythOS nor GodotOS are real operating systems. Both are applications with interfaces that resemble an OS, created entirely in Godot, and are intended as creative projects or "toys" rather than functional system software.
 
@@ -19,6 +19,8 @@ At this time, MythOS is being developed specifically for integration into my own
 
 While MythOS will soon be integrated into my own game, you are absolutely welcome to use MythOS in your own projects as well. The project is free and open under the AGPLv3 license—feel free to adapt, modify, and build upon it for your own creative ideas!
 Moreover this version of MythOS is the standalone Godot Project. Yet I will have to change some code to make it work for my own game since MythOS is going to play an essential part in my game. So the MythOS version you are going to encounter in my game is not exactly this version but a slightly modified. Though I try to make everything in this standalone MythOS project and just have to do minimal integration work. Making MythOS as portable as possible is also something that I'd like to do.
+
+*Contributing*
 
 
 
