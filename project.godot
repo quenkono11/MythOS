@@ -11,7 +11,6 @@ config_version=5
 [application]
 
 config/name="MythOS"
-config/description=""
 config/version="0.9.0"
 run/main_scene="res://Scenes/Main/MainScene.tscn"
 config/use_custom_user_dir=true
@@ -45,7 +44,6 @@ window/vsync/vsync_mode=0
 folder_colors={
 "res://Art/": "green",
 "res://Default Files/": "gray",
-"res://Games/": "red",
 "res://Scenes/": "blue",
 "res://Scenes/Misc/": "gray"
 }

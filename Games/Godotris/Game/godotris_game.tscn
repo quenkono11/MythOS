@@ -57,6 +57,7 @@ texture = SubResource("GradientTexture2D_he5fk")
 layout_mode = 1
 
 [node name="PiecePreview" parent="Grid" instance=ExtResource("3_la86e")]
+visible = false
 layout_mode = 0
 offset_left = 320.0
 offset_right = 480.0

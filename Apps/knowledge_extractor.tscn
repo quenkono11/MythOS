@@ -1,0 +1,44 @@
+[gd_scene load_steps=3 format=3 uid="uid://cakqmm06ieae"]
+
+[sub_resource type="Gradient" id="Gradient_aidk0"]
+colors = PackedColorArray(0.129249, 0.387973, 0.216734, 1, 0.869942, 0.521507, 0.706282, 1)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_daqy2"]
+gradient = SubResource("Gradient_aidk0")
+fill_from = Vector2(0.206422, 0.747706)
+
+[node name="Knowledge Extractor" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Background" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = SubResource("GradientTexture2D_daqy2")
+
+[node name="Button" type="Button" parent="."]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -69.0
+offset_top = -31.0
+offset_right = 69.0
+grow_horizontal = 2
+grow_vertical = 0
+text = "Insert Data Cube"
+
+[node name="Extraction Progess Label" type="Label" parent="."]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 22.3333
