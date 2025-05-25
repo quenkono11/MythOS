@@ -34,7 +34,7 @@ If you’d like to contribute, feel free to open a pull request or issue. Please
 ## Download
 
 - Try the original web version on [GodotOS Itch.io page](https://popcar2.itch.io/godotos)
-- Download MythOS releases from [your releases page or repository link]
+- Download MythOS releases from (https://github.com/quenkono11/MythOS/releases)
 
 ---
 
