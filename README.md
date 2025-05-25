@@ -21,6 +21,7 @@ While MythOS will soon be integrated into my own game, you are absolutely welcom
 Moreover this version of MythOS is the standalone Godot Project. Yet I will have to change some code to make it work for my own game since MythOS is going to play an essential part in my game. So the MythOS version you are going to encounter in my game is not exactly this version but a slightly modified. Though I try to make everything in this standalone MythOS project and just have to do minimal integration work. Making MythOS as portable as possible is also something that I'd like to do.
 
 **Contributing**
+
 Contributions are welcome! You are encouraged to add your own games, applications, or improvements to MythOS for use in your own projects or for the broader MythOS community.
 
 Please note:
@@ -34,7 +35,7 @@ If you’d like to contribute, feel free to open a pull request or issue. Please
 ## Download
 
 - Try the original web version on [GodotOS Itch.io page](https://popcar2.itch.io/godotos)
-- Download MythOS releases from (https://github.com/quenkono11/MythOS/releases)
+- Download MythOS releases from the [Releases page](https://github.com/quenkono11/MythOS/releases)
 
 ---
 
