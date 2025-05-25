@@ -15,13 +15,18 @@ If you include MythOS (or any AGPLv3-licensed code) as part of your own game or 
 
 At this time, MythOS is being developed specifically for integration into my own game. I plan to make the source code for my game public in the future, but it is **not currently available**.
 
-*Usage*
+**Usage**
 
 While MythOS will soon be integrated into my own game, you are absolutely welcome to use MythOS in your own projects as well. The project is free and open under the AGPLv3 license—feel free to adapt, modify, and build upon it for your own creative ideas!
 Moreover this version of MythOS is the standalone Godot Project. Yet I will have to change some code to make it work for my own game since MythOS is going to play an essential part in my game. So the MythOS version you are going to encounter in my game is not exactly this version but a slightly modified. Though I try to make everything in this standalone MythOS project and just have to do minimal integration work. Making MythOS as portable as possible is also something that I'd like to do.
 
-*Contributing*
+**Contributing**
+Contributions are welcome! You are encouraged to add your own games, applications, or improvements to MythOS for use in your own projects or for the broader MythOS community.
 
+Please note:
+While MythOS is being integrated into my own game, any contributions (such as new games or apps) will not be included in the MythOS version that is bundled with my game. This ensures that my game remains focused on its intended experience. However, your contributions can still be part of the main MythOS project and benefit other users.
+
+If you’d like to contribute, feel free to open a pull request or issue. Please make sure your contributions comply with the AGPLv3 license.
 
 
 ---
