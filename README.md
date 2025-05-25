@@ -29,6 +29,11 @@ While MythOS is being integrated into my own game, any contributions (such as ne
 
 If you’d like to contribute, feel free to open a pull request or issue. Please make sure your contributions comply with the AGPLv3 license.
 
+**Requirements**
+
+MythOS is built with Godot Engine version 4.4.1.
+To open or run this project, you should use Godot 4.4.1 or any later 4.4.x version. Projects made with Godot 4.x are generally compatible within the same minor version, so using at least Godot 4.4 is recommended for best results.
+
 
 ---
 
