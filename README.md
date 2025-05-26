@@ -60,9 +60,9 @@ To open or run this project, you should use Godot 4.4.1 or any later 4.4.x versi
 ## Changes from GodotOS
 
 - Renamed project to MythOS
-- Removed bundled games
-- Customized UI and functionality for integration into my own game
-- Updated branding and documentation
+- Removed bundled games [in Progess]
+- Customized UI and functionality for integration into my own game [in Progess]
+- Updated branding and documentation [in Progess]
 
 ---
 
